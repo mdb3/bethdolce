@@ -1,0 +1,273 @@
+html {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+body {
+  background: white;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Barlow Condensed', 'Open Sans Condensed', sans-serif;
+}
+
+
+
+header nav {
+  display: inline-block;
+}
+
+h1 {
+  letter-spacing: .2em;
+  font-family: 'Open Sans Condensed';
+  font-size: 84px;
+  font-weight: 200;
+  margin-top: -10%;
+  padding-top: 10%;
+  background-image: url("../images/image_1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 50%;
+  margin: 0 auto;
+
+}
+
+h2 {
+  text-align: left;
+  letter-spacing: 1em;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0 0 0 5%;
+  padding-bottom: 2%;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  margin: -10px;
+  position: fixed;
+  z-index: 100;
+  background: white;
+  width: 100%;
+  padding-left: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 100;
+  line-height: 30px;
+  height: 20px;
+  margin: 20px;
+}
+
+.nav-up {
+  top: -220px;
+}
+
+.nav a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-size: 26px;
+}
+
+.nav a:hover {
+  color: rgb(234, 185, 136);
+}
+
+.description {
+  line-height: 30px;
+}
+
+
+.about {
+  background: rgb(234, 185, 136, 0.7);
+  padding:3% 0 4% 0;
+  margin-top: 0%;
+}
+
+.about p {
+  text-align: left;
+  padding: 0 5%;
+  font-size: 20px;
+}
+
+.about a {
+  color: black;
+  border-bottom: .5px solid black;
+}
+
+.testimonials {
+  background: white;
+  text-align: left;
+  padding: 4% 0;
+}
+
+.testimonials h2 {
+  padding-bottom: 2%;
+}
+
+.testimonials p {
+  padding: 0 5%;
+  font-size: 20px;
+}
+
+.testimonials a {
+  color: black;
+  border-bottom: .5px solid black;
+}
+
+.services {
+  background: rgb(234, 185, 136, 0.7);
+  text-align: left;
+  padding: 3% 0;
+}
+
+.services h2 {
+  padding-bottom: 2%;
+}
+
+.services p {
+  padding: 0 5%;
+  font-size: 20px;
+}
+
+.service a {
+  color: black;
+  border-bottom: .5px solid black;
+}
+
+.service-list {
+  padding: 0 10%;
+  font-size: 20px;
+}
+
+.second-service-list {
+  padding: 0 10%;
+  font-size: 20px;
+}
+
+.contact {
+  background: white;
+  padding: 4% 0;
+  font-size: 20px;
+}
+
+.contact h3 {
+  text-align: left;
+  cursor: pointer;
+  font-weight: 200;
+}
+
+
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+
+}
+
+
+#email {
+  text-align: left;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 1em;
+  display: block;
+  margin: 0 0 1em;
+  max-width: 100%;
+  border: 1px solid #ccc;
+}
+
+#message {
+  padding: 1em 1em;
+  height: 110px;
+}
+
+input:focus,
+textarea:foucs {
+  outline: none;
+  border-color: #00BD8D;
+}
+
+label {
+  display: block;
+  margin: .5em 0;
+  text-align: left;
+}
+
+input[type=submit] {
+  color: #fff;
+  border: none;
+  padding: 1em;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 15px;
+  background: black;
+  text-transform: uppercase;
+  transition: background .2s ease-out;
+}
+
+input[type=submit]:hover {
+  background: rgb(234, 185, 136);
+}
+
+
+.footer {
+  background: white;
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 5% 0 0 0;
+}
+
+.footer img {
+    padding-right: 10%;
+  }
+
+
+
+a.back-to-top {
+  display: none;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+  background: #d8d3c1 url("../images/arrow.png") no-repeat center 43%;
+  border-radius: 30px;
+  color: white;
+}
