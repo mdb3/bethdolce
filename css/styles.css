@@ -32,7 +32,7 @@ header nav {
 
 h1 {
   letter-spacing: .2em;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Julius Sans One';
   font-size: 84px;
   font-weight: 200;
   margin-top: -10%;
@@ -53,7 +53,7 @@ h2 {
   letter-spacing: 1em;
   font-size: 24px;
   font-weight: 300;
-  margin: 0 0 0 5%;
+  margin: 0 0 -1% 5%;
   padding-bottom: 2%;
 }
 
@@ -109,7 +109,7 @@ a {
 
 
 .about {
-  background: rgb(234, 185, 136, 0.7);
+  background: rgb(234, 185, 136, 0.6);
   padding:3% 0 4% 0;
   margin-top: 0%;
 }
@@ -117,7 +117,9 @@ a {
 .about p {
   text-align: left;
   padding: 0 5%;
-  font-size: 20px;
+  font-size: 21px;
+  font-family: 'Barlow Condensed';
+  font-weight: 300;
 }
 
 .about a {
@@ -126,7 +128,7 @@ a {
 }
 
 .testimonials {
-  background: white;
+  background: gainsboro;
   text-align: left;
   padding: 4% 0;
 }
@@ -138,6 +140,9 @@ a {
 .testimonials p {
   padding: 0 5%;
   font-size: 20px;
+  margin-top: 2%;
+  font-weight: 300;
+
 }
 
 .testimonials a {
@@ -146,7 +151,7 @@ a {
 }
 
 .services {
-  background: rgb(234, 185, 136, 0.7);
+  background: rgb(234, 185, 136, 0.6);
   text-align: left;
   padding: 3% 0;
 }
@@ -157,7 +162,9 @@ a {
 
 .services p {
   padding: 0 5%;
-  font-size: 20px;
+  font-size: 21px;
+  margin-top: 2%;
+  font-weight: 300;
 }
 
 .service a {
@@ -167,18 +174,20 @@ a {
 
 .service-list {
   padding: 0 10%;
-  font-size: 20px;
+  font-size: 21px;
+  font-weight: 300;
 }
 
 .second-service-list {
   padding: 0 10%;
-  font-size: 20px;
+  font-size: 21px;
+  font-weight: 300;
 }
 
 .contact {
-  background: white;
+  background: gainsboro;
   padding: 4% 0;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .contact h3 {
@@ -249,14 +258,12 @@ input[type=submit]:hover {
   color: black;
   font-weight: 300;
   font-size: 18px;
-  padding: 5% 0 0 0;
+  padding: 2% 0 0 0;
 }
 
 .footer img {
-    padding-right: 10%;
-  }
-
-
+  padding-right: 10%;
+}
 
 a.back-to-top {
   display: none;
@@ -267,7 +274,7 @@ a.back-to-top {
   z-index: 999;
   right: 20px;
   bottom: 20px;
-  background: #d8d3c1 url("../images/arrow.png") no-repeat center 43%;
+  background: rgb(234, 185, 136, 0.5) url("../images/arrow.png") no-repeat center 43%;
   border-radius: 30px;
   color: white;
 }
